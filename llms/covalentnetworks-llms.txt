@@ -1,0 +1,25 @@
+# Covalent (Covalent Networks)
+
+> Covalent is a workforce operations platform for industrial manufacturing teams in aerospace & defense and automotive. It digitizes on-the-job training, skills/capability management, workforce scheduling and task execution, and exposes a GraphQL API to integrate workforce, skills and production data with enterprise systems (Workday, SAP, Oracle, UKG, Microsoft, LMS/ERP/MES). Authentication is via AWS Cognito. Backed by Felicis.
+
+## Company
+- Website: https://covalentnetworks.com
+- API & integrations: https://covalentnetworks.com/api-services
+- Blog: https://covalentnetworks.com/blog
+- Case studies: https://covalentnetworks.com/case-studies
+- Contact / demo: https://covalentnetworks.com/contact
+
+## API
+- Style: GraphQL (single-request fetch, bidirectional enterprise data flow)
+- Auth: AWS Cognito (OAuth2 / OIDC, MFA)
+- Integrations: Workday, SAP, Oracle, UKG, Microsoft, HCM/HR, LMS, ERP, MES, Data Warehouses, Active Directory/SSO
+- Access: provisioned per tenant via Request a Demo (no public developer portal or OpenAPI)
+
+## Security & compliance
+- Trust Center: https://trust.covalentnetworks.com/ (Secureframe-monitored SOC 2)
+- Security page: https://covalentnetworks.com/security (SOC 2, SOC 3, ISO 27001, ISO 9001; annual third-party pen testing)
+- Security contact: security@covalentnetworks.com
+
+## Legal
+- Privacy Notice: https://covalentnetworks.com/policies/privacy-notice
+- Cookie Notice: https://covalentnetworks.com/policies/cookie-notice

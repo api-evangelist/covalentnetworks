@@ -1,8 +1,32 @@
 aid: covalentnetworks
-name: Covalentnetworks
-description: Covalentnetworks is a company surfaced as a portfolio company of felicis and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Covalent
+description: >-
+  Covalent (Covalent Networks) is a workforce operations software company for
+  industrial manufacturing teams in the aerospace & defense and automotive
+  sectors, with Fortune 500 manufacturing clients including Boeing. Its platform
+  connects workforce skills, task execution and production data to digitize
+  on-the-job training, capability and skills management, intelligent work
+  allocation, workforce scheduling, and workflow automation with audit reporting,
+  replacing paper-based shop-floor processes. Covalent exposes a GraphQL API and
+  bidirectional integrations to move workforce, skills and production data across
+  enterprise systems such as Workday, SAP, Oracle, UKG, Microsoft, and LMS/ERP/MES
+  platforms. API access is authenticated with AWS Cognito (OAuth2/OIDC with MFA)
+  and provisioned per tenant. The company is headquartered in Boston, MA and is
+  backed by Felicis.
 url: https://raw.githubusercontent.com/api-evangelist/covalentnetworks/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/674d59956fb0202f9715cbca/6835958d664a950e82cbd7a2_Hero%20section.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +35,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Workforce Operations
+- Manufacturing
+- Aerospace and Defense
+- Skills Management
+- Training
+- GraphQL
+- Enterprise Integration
+apis:
+- name: Covalent API
+  description: >-
+    GraphQL API for integrating Covalent's workforce, skills, capability and
+    production data with enterprise systems. Authenticated via AWS Cognito;
+    access is provisioned per tenant (request a demo). No public OpenAPI or
+    developer portal is published.
+  humanURL: https://covalentnetworks.com/api-services
+  properties:
+  - type: Authentication
+    url: authentication/covalentnetworks-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +64,32 @@ maintainers:
 common:
 - type: Website
   url: https://covalentnetworks.com
+- type: Blog
+  url: https://covalentnetworks.com/blog
+- type: Support
+  url: https://covalentnetworks.com/contact
+- type: PrivacyPolicy
+  url: https://covalentnetworks.com/policies/privacy-notice
+- type: Authentication
+  url: authentication/covalentnetworks-authentication.yml
+- type: Conformance
+  url: conformance/covalentnetworks-conformance.yml
+- type: WellKnown
+  url: well-known/covalentnetworks-well-known.yml
+- type: DomainSecurity
+  url: security/covalentnetworks-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/covalentnetworks-vulnerability-disclosure.yml
+- type: Security
+  url: https://covalentnetworks.com/security
+- type: TrustCenter
+  url: security/covalentnetworks-trust-center.yml
+- type: Compliance
+  url: https://trust.covalentnetworks.com/
+- type: LLMsTxt
+  url: llms/covalentnetworks-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

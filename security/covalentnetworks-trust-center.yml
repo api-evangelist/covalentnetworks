@@ -1,0 +1,36 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.covalentnetworks.com/
+url: https://trust.covalentnetworks.com/
+monitored_by: Secureframe
+certifications:
+- SOC 2
+- SOC 3
+- ISO 27001
+- ISO 9001
+control_domains:
+- Change Management
+- Availability (business continuity / disaster recovery)
+- Organizational Management (background checks, security program reviews)
+- Confidentiality (data classification, retention/disposal)
+- Vulnerability Management (patch management, third-party penetration testing)
+- Incident Response
+- Risk Assessment (vendor management, risk registers)
+- Network & Access Security (MFA, least privilege, SSH keys)
+- Physical Security
+evidence:
+- source: https://trust.covalentnetworks.com/
+  keywords:
+  - soc2
+  - trust center
+  - secureframe
+- source: https://covalentnetworks.com/security
+  keywords:
+  - iso 27001
+  - iso 9001
+  - soc 3
+notes: >-
+  Trust Center is a Secureframe-hosted SOC 2 controls monitor. The public
+  /security page additionally claims ISO 27001, ISO 9001 and SOC 3, plus annual
+  third-party penetration testing and encryption at rest and in transit.
